@@ -1,24 +1,37 @@
-import React from 'react';
+import React from "react";
+import projectList from "../projectList";
 
-export default function Blog() {
+export default function Portfolio() {
   return (
     <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <h1>My projects</h1>
+      <div className="container">
+        <div className="row">
+          {projectList.map((project)=> (
+            <div key={project.id} className="col-4">
+            <div className="card text-center">
+              <div className="card-header">
+                <h2>{project.title}</h2>
+              </div>
+              <div className="card-body">
+                <div className="text-center">
+                  <img
+                    alt={project.title}
+                    className="img"
+                    src={project.image}
+                    style={{ margin: "0 auto" }}
+                  />
+                  <p>{project.description}</p>
+                  <a href={project.link} className="btn btn-primary">
+                    Link
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

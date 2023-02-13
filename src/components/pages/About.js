@@ -1,17 +1,17 @@
-import React from 'react';
+import React from "react";
+import avatar from "../../assets/casey.jpeg";
 
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>Hi, I'm Casey</h1>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        I’m a product manager-turned-full stack developer with a proven
+        track-record of driving impact via leading distributed agile teams to
+        create user-centric, globally scaled software, getting hands-on with
+        licensed apps, integrating 3rd party APIs, and developing web apps.
       </p>
+      <img src={avatar} alt="headshot" width="100px" />
     </div>
   );
 }
