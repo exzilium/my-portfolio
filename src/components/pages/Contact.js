@@ -2,6 +2,7 @@ import React from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
+import { validateEmail } from "../../utils/helpers";
 
 export default function Contact() {
   // Form state
@@ -22,8 +23,8 @@ export default function Contact() {
   const [errorMessage, setErrorMessage] = useState("");
   const [submitMessage, setSubmitMessage] = useState("");
 
-  // Validator states
-  const [validated, setValidated] = useState(false);
+  // // Validator states
+  // const [validated, setValidated] = useState(false);
 
   // Handlers
 
@@ -61,20 +62,20 @@ export default function Contact() {
 
   // Handle Submit with validation checks
   const handleSubmit = (event) => {
-    const form = event.currentTarget;
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
-    }
 
-    setValidated(true);
-    if (form.checkValidity() === true) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    // Email validation
+    if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email.");
+      return;
+    }
       setUsername("");
       setEmail("");
       setSubject("");
       setMessage("");
       setSubmitMessage("Thank you!");
-    }
   };
 
   //
@@ -82,7 +83,7 @@ export default function Contact() {
   return (
     <div>
       <h1>Contact Me</h1>
-      <Form noValidate validated={validated} onSubmit={handleSubmit}>
+      <Form noValidate onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="contactForm.ControlInput1">
           <Form.Label>Your Name</Form.Label>
           <Form.Control
@@ -143,6 +144,13 @@ export default function Contact() {
             Please enter a message
           </Form.Control.Feedback>
         </Form.Group>
+        <div>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+      </div>
         <Button variant="primary" type="submit">
           Submit
         </Button>
