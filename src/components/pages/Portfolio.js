@@ -1,37 +1,36 @@
 import React from "react";
 import projectList from "../projectList";
+import { Container, Row, Col, Card } from "react-bootstrap";
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>My projects</h1>
-      <div className="container">
-        <div className="row">
-          {projectList.map((project)=> (
-            <div key={project.id} className="col-4">
-            <div className="card text-center">
-              <div className="card-header">
-                <h2>{project.title}</h2>
-              </div>
-              <div className="card-body">
-                <div className="text-center">
-                  <img
-                    alt={project.title}
-                    className="img"
-                    src={project.image}
-                    style={{ margin: "0 auto" }}
-                  />
-                  <p>{project.description}</p>
-                  <a href={project.link} className="btn btn-primary">
-                    Link
-                  </a>
-                </div>
-              </div>
+    <Container className="text-center">
+      <h1 className="mb-5">My projects</h1>
+      <Row>
+          {projectList.map((project) => (
+            <div key={project.id} className="col-lg-6">
+              <Card className="text-center mb-5">
+                <Card.Header>
+                  <h2>{project.title}</h2>
+                </Card.Header>
+                <Card.Body>
+                    <img
+                      alt={project.title}
+                      className="img"
+                      src={project.image}
+                      style={{ margin: "0 auto", objectFit: "cover", objectPosition: "top" }}
+                      width="100%"
+                      height="300px"
+                    />
+                    <p>{project.description}</p>
+                    <a href={project.link} className="btn btn-primary stretched-link" target="_blank">
+                      GitHub Repo
+                    </a>
+                </Card.Body>
+              </Card>
             </div>
-          </div>
           ))}
-        </div>
-      </div>
-    </div>
+      </Row>
+    </Container>
   );
 }

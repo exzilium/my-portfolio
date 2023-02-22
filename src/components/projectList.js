@@ -1,44 +1,55 @@
+import dbug from "../assets/dbug.png";
+import myBuddy from "../assets/mybuddy.png";
+import football from "../assets/football.png";
+import quotegetter from "../assets/quotegetter.webp";
+import noteTaker from "../assets/notetaker.png";
+import password from "../assets/password.png";
+
 const projectList = [
   {
-    title: "myBuddy",
-    description: "Social media app",
-    image: "#",
-    link: "#",
+    title: "DBUG",
+    description: "Bug tracker ticketing app",
+    image: dbug,
+    link: "https://github.com/saramangelo/cswag-p3",
     id: 1,
   },
   {
-    title: "Football app",
-    description: "Scoreboard app",
-    image: "#",
-    link: "#",
+    title: "myBuddy",
+    description: "A social media network with an AI companion",
+    image: myBuddy,
+    link: "https://github.com/gavinrn/MyBuddy",
     id: 2,
   },
   {
-    title: "Project 3",
-    description: "Project app",
-    image: "#",
-    link: "#",
+    title: "Football app",
+    description:
+      "Scoreboard app to see the current American football scores and schedule of the week.",
+    image: football,
+    link: "https://github.com/exzilium/football-schedule",
     id: 3,
   },
   {
-    title: "Project 4",
-    description: "Project app",
-    image: "#",
-    link: "#",
+    title: "Quote Getter (TBD)",
+    description:
+      "An app to get quotes for projects and services between buyers and sellers.",
+    image: quotegetter,
+    link: "https://github.com/exzilium/quote-getter",
     id: 4,
   },
   {
-    title: "Project 5",
-    description: "Project app",
-    image: "#",
-    link: "#",
+    title: "Note Taker",
+    description:
+      "Write and save notes to organize your thoughts and keep track of tasks that you need to complete.",
+    image: noteTaker,
+    link: "https://github.com/exzilium/note-taker",
     id: 5,
   },
   {
-    title: "Project 6",
-    description: "Project app",
-    image: "#",
-    link: "#",
+    title: "Password Generator",
+    description:
+      "Create a secure, custom, randomly generated password using upper and lowercase letters, numbers, and special characters.",
+    image: password,
+    link: "https://github.com/exzilium/password-generator",
     id: 6,
   },
 ];

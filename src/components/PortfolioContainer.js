@@ -5,6 +5,7 @@ import Contact from "./pages/Contact";
 import Footer from "./Footer";
 import Header from "./Header";
 import Resume from "./pages/Resume";
+// import css file
 
 // Default to About page
 export default function PortfolioContainer() {

@@ -81,7 +81,7 @@ export default function Contact() {
   //
 
   return (
-    <div>
+    <div className="container">
       <h1>Contact Me</h1>
       <Form noValidate onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="contactForm.ControlInput1">

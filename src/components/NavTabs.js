@@ -3,7 +3,7 @@ import React from "react";
 // props for currentPage state and change hanlder to update state
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs mb-5 shadow-sm">
       <li className="nav-item">
         <a
           href="#about"
