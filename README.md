@@ -18,7 +18,7 @@ Front End professional portfolio application built with React.js detailing my ex
  
   
 ## Usage
-Enter [this url](#) in browser.
+Enter [this url](https://exzilium.github.io/my-portfolio/) in browser.
    
 ## Technologies
 * React
