@@ -1,7 +1,7 @@
 # Casey Dwyer's Portfolio
 
 ## Description 
-Front End professional portfolio application built with React.js, Express.js, Node.js, and Bootstrap React UI, detailing my experience as a developer.
+Front End professional portfolio application built with React.js detailing my experience as a developer.
 
 
 ## Screenshot
