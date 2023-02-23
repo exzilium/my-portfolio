@@ -1,10 +1,11 @@
 import React from "react";
-import projectList from "../projectList";
+import projectList from "../../utils/projectList";
 import { Container, Row, Col, Card } from "react-bootstrap";
+
 
 export default function Portfolio() {
   return (
-    <Container className="text-center">
+    <Container className="text-center mb-5">
       <h1 className="mb-5">My projects</h1>
       <Row>
           {projectList.map((project) => (
