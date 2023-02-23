@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.012d9b0c.css",
-    "main.js": "/static/js/main.d5d12387.js",
-    "static/media/casey_default_circle.png": "/static/media/casey_default_circle.1e7425ac01e4b75cedea.png",
-    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
-    "static/media/football.png": "/static/media/football.70a0c33d62ae57f8902e.png",
-    "static/media/quotegetter.webp": "/static/media/quotegetter.fbe3b363ccce72c7e8b9.webp",
-    "static/media/mybuddy.png": "/static/media/mybuddy.feb969d661eaab0ece02.png",
-    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
-    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
-    "static/media/dbug.png": "/static/media/dbug.d46e53e45105d9928d8e.png",
-    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
-    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.146404900f7550a9719d.ttf",
-    "static/media/password.png": "/static/media/password.0077a0854ea88b5cf0e7.png",
-    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
-    "static/media/notetaker.png": "/static/media/notetaker.3eaca02b6584a4616ee5.png",
-    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
-    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
-    "index.html": "/index.html",
-    "main.012d9b0c.css.map": "/static/css/main.012d9b0c.css.map",
-    "main.d5d12387.js.map": "/static/js/main.d5d12387.js.map"
+    "main.css": "/my-portfolio/static/css/main.cc03e17e.css",
+    "main.js": "/my-portfolio/static/js/main.8959d362.js",
+    "static/media/casey_default_circle.png": "/my-portfolio/static/media/casey_default_circle.1e7425ac01e4b75cedea.png",
+    "static/media/fa-solid-900.ttf": "/my-portfolio/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/football.png": "/my-portfolio/static/media/football.70a0c33d62ae57f8902e.png",
+    "static/media/quotegetter.webp": "/my-portfolio/static/media/quotegetter.fbe3b363ccce72c7e8b9.webp",
+    "static/media/mybuddy.png": "/my-portfolio/static/media/mybuddy.feb969d661eaab0ece02.png",
+    "static/media/fa-brands-400.ttf": "/my-portfolio/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/my-portfolio/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/dbug.png": "/my-portfolio/static/media/dbug.d46e53e45105d9928d8e.png",
+    "static/media/fa-brands-400.woff2": "/my-portfolio/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/fa-regular-400.ttf": "/my-portfolio/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/password.png": "/my-portfolio/static/media/password.0077a0854ea88b5cf0e7.png",
+    "static/media/fa-regular-400.woff2": "/my-portfolio/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/notetaker.png": "/my-portfolio/static/media/notetaker.3eaca02b6584a4616ee5.png",
+    "static/media/fa-v4compatibility.ttf": "/my-portfolio/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/my-portfolio/index.html",
+    "main.cc03e17e.css.map": "/my-portfolio/static/css/main.cc03e17e.css.map",
+    "main.8959d362.js.map": "/my-portfolio/static/js/main.8959d362.js.map"
   },
   "entrypoints": [
-    "static/css/main.012d9b0c.css",
-    "static/js/main.d5d12387.js"
+    "static/css/main.cc03e17e.css",
+    "static/js/main.8959d362.js"
   ]
 }
