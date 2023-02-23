@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.cc03e17e.css",
-    "main.js": "/my-portfolio/static/js/main.8959d362.js",
+    "main.js": "/my-portfolio/static/js/main.698e6c38.js",
     "static/media/casey_default_circle.png": "/my-portfolio/static/media/casey_default_circle.1e7425ac01e4b75cedea.png",
     "static/media/fa-solid-900.ttf": "/my-portfolio/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
     "static/media/football.png": "/my-portfolio/static/media/football.70a0c33d62ae57f8902e.png",
@@ -19,10 +19,10 @@
     "static/media/fa-v4compatibility.woff2": "/my-portfolio/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
     "index.html": "/my-portfolio/index.html",
     "main.cc03e17e.css.map": "/my-portfolio/static/css/main.cc03e17e.css.map",
-    "main.8959d362.js.map": "/my-portfolio/static/js/main.8959d362.js.map"
+    "main.698e6c38.js.map": "/my-portfolio/static/js/main.698e6c38.js.map"
   },
   "entrypoints": [
     "static/css/main.cc03e17e.css",
-    "static/js/main.8959d362.js"
+    "static/js/main.698e6c38.js"
   ]
 }
